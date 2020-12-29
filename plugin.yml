@@ -1,0 +1,33 @@
+---
+# See server TPS and a player's ping
+# Copyright (C) 2020 KygekTeam
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+name: KygekPingTPS
+version: "1.0.0"
+author: KygekTeam
+api: "1.0.0"
+main: org.kygekteam.kygekpingtps.Main
+
+commands:
+  ping:
+    description: Current ping of a player
+    permission: kygekpingtps.ping
+    usage: "/ping [player]"
+  tps:
+    description: Current TPS of the server
+    permission: kygekpingtps.tps
+    usage: "/tps"
+
+permissions:
+  kygekpingtps.ping:
+    description: Permission to use /ping
+    default: true
+  kygekpingtps.tps:
+    description: Permission to use /tps
+    default: true
+...

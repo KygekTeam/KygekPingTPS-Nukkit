@@ -45,3 +45,4 @@ KygekPingTPS plugin is made by KygekTeam and licensed under GPL-3.0.
 # Other Versions
 
 - [PocketMine-MP](https://github.com/KygekTeam/KygekPingTPS)
+- [SpigotMC/PaperMC](https://github.com/KygekTeam/KygekPingTPS-Spigot)
